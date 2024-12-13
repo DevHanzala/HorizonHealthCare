@@ -12,16 +12,16 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+} from "@/Components/ui/form";
+import { Input } from "@/Components/ui/input";
+import { Textarea } from "@/Components/ui/textarea";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "@/Components/ui/select";
 import { addRequest } from "@/actions/requests";
 
 const formSchema = z.object({
