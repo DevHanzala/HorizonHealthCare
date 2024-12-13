@@ -1,0 +1,49 @@
+                               *****Patient Management System******
+
+=>Firstly we created a flow of complete project like UI and pages we needed, with the help of
+ShadCn and Tailwind. In the Beginning we take a mock data from gpt to render on the Fronted later on 
+we show organic users data....
+
+=>In Components Folders we have a componet <ApplyForm/>. In this component we cretaed a from
+which takes complete doctor Info with proper valid data. For Validation we used Zod and for Uploading
+Images we used react-dropzone..
+
+=>Then we connect a Mongodb database using mongoose and created a api folders.....
+did Authentication using Next/Auth and store all info in the database which is came from our Form.
+We did only Google Authentication...   
+
+API Flow: 
+..take Api from Frontend and put  object in it then saved the obj and sent Response(POST Req route.js)
+
+Part2 (25min and 31min and 41,42min  1:7min(P3)  to live project)
+
+authjs.dev==>for installing Next Auth(Library for Authentication)
+follow each and every step to maintain a heriarchy from website...
+for maintaing a session Next Auth created a token. Behind of that token, it has a secret which is 
+present in .env 
+
+console.cloud.google.com =>from this all our projects handle even firebase projects also
+for taking auth secret we have done all cloud google process 
+
+fot testing API we used Postmen
+
+the purpose of callback which is in auth.js when we login through the google so google redirect it 
+but it give some data, so perform task on that data what you want   
+
+First create token then creates session we have recieved session 
+if we want anything in session so we can update the token
+
+React form Hook also used in form 
+Search params for getting relevant data
+every request which user do I can see it in Networks wection in beowser
+
+SearchParams?
+the link which is start from after base link and ?"......."
+
+For Cache issue = Ctrl+shift+R
+
+First we create API->Actions
+
+Flow Diagram Link:https://excalidraw.com/#json=SrVWy3FVG8rfCrCrAlwuN,5_0oWGBeybNqrZGcsgmxkA
+
+Day JS
