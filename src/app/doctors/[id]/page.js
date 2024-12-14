@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {
   HomeIcon,
   ClockIcon,
@@ -10,7 +9,7 @@ import {
   MapPinIcon,
 } from "lucide-react";
 import { getSingleRequest } from "@/actions/requests";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/Components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DatePicker } from "@/components/DatePicker";
 import { auth } from "../../../../auth";

@@ -1,13 +1,12 @@
 import {
     Card,
     CardContent,
-    CardFooter,
     CardHeader,
     CardTitle,
-  } from "@/components/ui/card";
-  import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-  import { Badge } from "@/components/ui/badge";
-  import { Calendar, Clock, MapPin } from "lucide-react";
+  } from "@/Components/ui/card";
+  import { Avatar, AvatarFallback, AvatarImage } from "@/Components/ui/avatar";
+  import { Badge } from "@/Components/ui/badge";
+  import { Calendar, MapPin } from "lucide-react";
   import { FaVenusMars } from "react-icons/fa";
 
   import dayjs from "dayjs";
