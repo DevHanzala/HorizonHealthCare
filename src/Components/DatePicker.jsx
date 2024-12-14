@@ -6,12 +6,12 @@ import { Calendar as CalendarIcon } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/Components/ui/button";
-import { Calendar } from "@/components/ui/calendar";
+import { Calendar } from "@/Components/ui/calendar";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
+} from "@/Components/ui/popover";
 import Link from "next/link";
 import { useToast } from "@/hooks/use-toast";
 import { addAppointment } from "@/actions/appointment";
