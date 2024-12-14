@@ -5,8 +5,8 @@ import {
     SheetHeader,
     SheetTitle,
     SheetTrigger,
-  } from "@/components/ui/sheet";
-  import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+  } from "@/Components/ui/sheet";
+  import { Avatar, AvatarFallback, AvatarImage } from "@/Components/ui/avatar";
   import { FaUserMd, FaHospitalAlt, FaRupeeSign, FaUser, FaPhone, FaMapMarkerAlt, FaGraduationCap, FaBriefcase, FaEnvelope, FaVenusMars } from "react-icons/fa";
 import { EyeIcon } from "lucide-react";
   
