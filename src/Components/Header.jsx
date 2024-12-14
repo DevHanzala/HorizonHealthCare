@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/Components/ui/button";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "@/Components/ui/avatar"
 import { auth,signOut } from "../../auth";
 import Image from "next/image";
 import {
@@ -10,7 +10,7 @@ import {
     DropdownMenuLabel,
     DropdownMenuSeparator,
     DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/Components/ui/dropdown-menu"
 
 export default async function Header() {
     const session = await auth()

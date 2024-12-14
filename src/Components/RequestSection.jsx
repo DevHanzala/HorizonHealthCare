@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import {
   Dialog,
   DialogContent,
@@ -8,7 +8,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog";
+} from "@/Components/ui/dialog";
 import { updateRequest } from "@/actions/requests";
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import DoctorCard from "./DoctorCard";
