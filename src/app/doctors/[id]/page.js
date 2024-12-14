@@ -10,8 +10,8 @@ import {
 } from "lucide-react";
 import { getSingleRequest } from "@/actions/requests";
 import { Card, CardContent, CardHeader, CardTitle } from "@/Components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { DatePicker } from "@/components/DatePicker";
+import { Avatar, AvatarFallback, AvatarImage } from "@/Components/ui/avatar";
+import { DatePicker } from "@/Components/DatePicker";
 import { auth } from "../../../../auth";
 import Link from "next/link";
 
